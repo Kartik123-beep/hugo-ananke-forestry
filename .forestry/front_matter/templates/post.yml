@@ -23,5 +23,12 @@ fields:
 - type: boolean
   name: disable_share
   label: disable_share
+- name: list
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: List
 pages:
 - content/post/chapter-6.md
